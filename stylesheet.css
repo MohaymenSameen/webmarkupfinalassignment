@@ -1,0 +1,144 @@
+	
+	/*Adding the background image*/
+	{
+		margin:0;
+		padding:0;
+		border:0;
+	}
+	
+	body {
+		background:url(img/background.jpeg);
+		background-repeat: no-repeat;
+		max-width: 900px;
+		margin:auto;		
+		 }			
+		
+    /*adding company image and alignment*/
+	header{
+		background:url(img/companylogoBG.jpg);	
+		background-position:center;
+		height: 200px;
+		width: 100%;		
+		padding:1px;			
+		background-size: 100%;	
+		
+		
+		/*Heading 1 postion and color*/
+		
+		color: #FFFFFF;
+		text-align: center;		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-transform: uppercase;
+		font-size: 3em;
+		font-family: Cocogoose Pro;
+		text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		
+		 }
+		 
+		 
+    #nav{
+		width:95.5%;
+		margin:2px;
+		list-style:none;
+		overflow: hidden;
+		background-color: #757575;
+		display:flex;
+		justify-content: center;
+		}
+	#nav li {
+		float:left;
+		text-align: center;
+		margin:0;
+		padding:0;
+		overflow: hidden;
+		vertical-align:middle;
+		width: 100%;
+	
+		}
+	#nav a {
+		display:block;
+		text-align:center;
+		width:fixed; 
+		padding: 14px 21px;
+		text-decoration:none; 
+		color:#FFFFFF;
+		text-transform: uppercase;
+		}
+		
+	.games {
+		font-size: 50px;
+		color: #FFFFFF;
+		text-align: center;
+		background-color: #0099ff;
+		margin:0;		
+		padding:10px 315px;
+		width: 30%;
+		text-transform: uppercase;
+		position: static;
+		
+		}
+		
+		
+	figure{
+		width:100%;
+		height:400px;
+		position:relative;
+		overflow: hidden;
+		margin: 0;	
+		
+		
+		}
+		
+	img	{
+		width: 100%;
+		height: static;		
+		position: absolute;
+		overflow: hidden;
+		display: block;	
+		margin: auto;				
+		top: -100%;
+		bottom: -100%;		
+		}
+	
+	footer{
+		width:100%;
+		height:30px;
+		background-color:#000000;
+		color: #FFFFFF;
+		text-align: center;
+		margin: 2px;
+	}
+	
+	.picgrid {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: DodgerBlue;
+		height:100px;
+		weight:100px;
+		}
+
+	.picgrid > div {
+		background-color: #f1f1f1;
+		width: 100px;
+		margin: 10px;
+		text-align: center;
+		line-height: 75px;
+		font-size: 30px;
+		height:100px;
+		weight:100px;
+		}
+	
+		
+	
+
+
+
+
+
+
+
+
+
+
