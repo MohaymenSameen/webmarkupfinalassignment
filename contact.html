@@ -1,42 +1,66 @@
-COMPANY NAME
-Home
-Product
-Contact
-More information
-<form action="nowhere.php" method="post">
-	<fieldset>
-		<label >Select topic</label>
+<!DOCTYPE html>
+
+
+<html lang = "en">
+
+<head>
+
+
+	<meta charset = "UTF-8">
+	<meta name = "keywords" 	content = "Contact">
+	<meta name = "description"  content = "contact ">
+	<meta name = "author" 		content = "Mohaymen Sameen, 627650">	
+	<link rel="stylesheet" href="stylesheet.css">
+	
+</head>
+
+<body>
+<section>
+	<header>	
+		<h1>COMPANY NAME</h1>
+	</header>
+	
+		<ul id = "nav">
+			<li><a href="#product">Home</a></li>
+			<li><a href="#contact">Product</a></li>
+			<li><a href="#blog">Blog</a></li>
+		</ul>
+		<h2 class="games">Contact</h2>
+
+	
+		<h3>More information</h3>
+
+	<form action="nowhere.php" method="post">
+		<fieldset>
+			<label >Select topic</label>
 		<select>
 			<option value="general">General inquiries</option>
 			<option value="press">Press relations</option>
 			<option value="recruitement">Recruitement</option>
 		</select>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="text"
-				name="contactFormName"
-				placeholder="Your name.."
-		/>
-	</fieldset>
-	<fieldset class="contactFormFieldset">
-		<input
-				type="email"
-				name="email"
-				placeholder="Your email.."
-		/>
-	</fieldset>
-	<fieldset>
-		<textarea
-				rows="7"
-				cols="40"
-				name="message"
-				placeholder="Write something.."
-		></textarea>
-	</fieldset>
-	<input
-			type="submit"
-			value="Submit"
-	/>
-</form>
-2018 - Student name - Inholland 
+		</fieldset>
+	
+		<fieldset class="contactFormFieldset">
+			<input	type="text"	name="contactFormName" placeholder="Your name.."/>
+		
+		</fieldset>
+		<fieldset class="contactFormFieldset">
+			<input type="email"	name="email" placeholder="Your email.."/>
+		</fieldset>	
+	
+		<fieldset>
+	
+			<textarea rows="7"	cols="40" name="message" placeholder="Write something..">
+			</textarea>
+		
+		</fieldset>
+			<input type="submit	value="Submit"/>
+		
+	</form>
+	
+	<footer>
+		2018 - Student name - Inholland 
+	</footer>
+</section
+</body>
+</html>

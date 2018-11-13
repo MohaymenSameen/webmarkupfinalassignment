@@ -118,7 +118,7 @@
 
 
 	.column {
-		flex: 40%;
+		flex: 70%;
 		padding: 0;
 		max-width:40%;
 		padding:0;
@@ -127,10 +127,35 @@
 	}
 	.column img{
 		width:10%;
-		
-		
-		
+		padding:10px;
+				
+	}
+	
+	h3{
+		font-size:2em;
+		color:#898989;
+		background-color:#F5F5F5;
+		height:40px;
+		margin:0;
+		padding:20px;
+	}
+	
+	form{
+		background-color:#F5F5F5;
 	}
 
-
+	fieldset{
+		width: 400px;
+		margin:auto;
+		padding:10px 90px;
+	
+	}
+	
+	select{
+		width: 50%;
+		margin: auto;
+		float: right;
+		
+	}
+		
 
