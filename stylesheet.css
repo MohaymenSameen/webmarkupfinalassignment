@@ -6,15 +6,17 @@
 		border:0;
 	}
 	
-	body {
+	body 
+	{
 		background:url(img/background.jpeg);
 		background-repeat: no-repeat;
 		max-width: 900px;
 		margin:auto;		
-		 }			
+    }			
 		
-    /*adding company image and alignment*/
-	header{
+   /*adding company image and alignment*/
+	header
+	{
 		background:url(img/companylogoBG.jpg);	
 		background-position:center;
 		height: 200px;
@@ -35,10 +37,11 @@
 		font-family: Cocogoose Pro;
 		text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 		
-		 }
+    }
 		 
 		 
-    #nav{
+    #nav
+	{
 		width:95.5%;
 		margin:2px;
 		list-style:none;
@@ -46,18 +49,22 @@
 		background-color: #757575;
 		display:flex;
 		justify-content: center;
-		}
-	#nav li {
+	}
+	
+	
+	#nav li 
+	{
 		float:left;
 		text-align: center;
 		margin:0;
 		padding:0;
 		overflow: hidden;
 		vertical-align:middle;
-		width: 100%;
+		
+	}
 	
-		}
-	#nav a {
+	#nav a 
+	{
 		display:block;
 		text-align:center;
 		width:fixed; 
@@ -65,9 +72,10 @@
 		text-decoration:none; 
 		color:#FFFFFF;
 		text-transform: uppercase;
-		}
+	}
 		
-	.games {
+	.games 
+	{
 		font-size: 50px;
 		color: #FFFFFF;
 		text-align: center;
@@ -76,33 +84,32 @@
 		padding:10px 315px;
 		width: 30%;
 		text-transform: uppercase;
-		position: static;
+		position: static;		
+	}
 		
-		}
 		
-		
-	figure{
+	figure
+	{
 		width:100%;
 		height:400px;
 		position:relative;
 		overflow: hidden;
-		margin: 0;	
+		margin: 0;			
+    }
 		
-		
-		}
-		
-	img	{
-		width: 100%;
-		height: static;		
+	img	
+	{
+		width: 100%;		
 		position: absolute;
 		overflow: hidden;
 		display: block;	
 		margin: auto;				
 		top: -100%;
 		bottom: -100%;		
-		}
+	}
 	
-	footer{
+	footer
+	{
 		width:100%;
 		height:30px;
 		background-color:#000000;
@@ -111,27 +118,10 @@
 		margin: 2px;
 	}
 	
-	.row {
-		display: flex;
-		
-	}
-
-
-	.column {
-		flex: 70%;
-		padding: 0;
-		max-width:40%;
-		padding:0;
-		
-		
-	}
-	.column img{
-		width:10%;
-		padding:10px;
-				
-	}
 	
-	h3{
+	
+	h3
+	{
 		font-size:2em;
 		color:#898989;
 		background-color:#F5F5F5;
@@ -140,22 +130,102 @@
 		padding:20px;
 	}
 	
-	form{
+	form
+	{
 		background-color:#F5F5F5;
 	}
 
-	fieldset{
-		width: 400px;
+	fieldset
+	{
+		width: 500px;
 		margin:auto;
-		padding:10px 90px;
-	
+		border:none;	
 	}
 	
-	select{
+	select
+	{
 		width: 50%;
 		margin: auto;
 		float: right;
+		position: relative;
+		top:-12px;
+		
 		
 	}
-		
+	.flex-container 
+	{
+	  display: flex;
+	  flex-wrap: wrap;
+			  
+	}
 
+	.flex-container > span
+	{
+	  background-color: #f1f1f1;
+	  width: 100px;
+	  margin: 10px;	 
+	  line-height: 75px;
+	}
+	  
+	.flex-container img
+	{	
+		height:100%;
+	}
+	
+	input
+	{
+		width:500px;
+		padding:10px;	
+		border: 1px solid #7d7d7d;	
+		
+	}
+	
+	textarea
+	{
+		width: 500px;
+		padding:10px;
+		border: 1px solid #7d7d7d;
+	}
+	
+	label
+	{	
+		text-align:left;
+		position:relative;
+		left:-213px;
+		font-family: Arial;
+		font-size:90%;
+		color:#6b6b6b;
+		
+	}
+	
+	.fir
+	{		
+		padding:10px 222px;
+		border: 1px solid #7d7d7d;
+		position:relative;
+		left:-10px;
+		bottom:-7px;	
+	}
+	
+	.butt
+	{
+		position:relative;
+		right:-190px;		
+	}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
