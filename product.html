@@ -4,13 +4,15 @@
 	<html lang = "en">
 
 		<head>
+			<!-- adding title to the page-->
 			<title>Product Page</title>
-
 			<meta charset = "UTF-8">
 			<meta name = "keywords" 	content = "Products, games,mario and luigi, chess,darts,poker,console controllers, mobile phone, beer pong">
 			<meta name = "description"  content = "Entertainment, different types of products">
 			<meta name = "author" 		content = "Mohaymen Sameen, 627650">	
-			<link rel="stylesheet" href="stylesheet.css">
+			<!--attaching stylesheet-->
+			<link rel="stylesheet" href="css/stylesheet.css">
+			<!--favicon resolutions-->
 			<link rel="icon" type="image/png" href="img/favicon-16x16.png"/>
 			<link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png"/>
 			<link rel="apple-touch-icon" type="image/png" href="img/favicon-180x180.png"/>
@@ -20,21 +22,26 @@
 		<body>
 			<section>
 				<header>	
+					<!-- header name -->
 					<h1>COMPANY NAME</h1>
 				</header>				
-					
+				
+				<!-- adding the background video-->
 				<video autoplay muted loop id="backvid">
 					<source src="movie/background3.mp4" type="video/mp4">				
 				</video>
 				
+				<!--navigation bar-->
 				<ul id = "nav">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="http://www.blogger.com">Blog</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
-					
+				
+				<!-- attaching a global class for the images  in header 2-->
 				<h2 class= "games">product catalog</h2>	
-							
+						
+				<!--creating a flexbox container for the images-->
 				<span class="flex-container">
 					<span><img src="img/product1.jpg" class="flex-container" title="rubiks cube" alt="game rubiks"></span>
 					<span><img src="img/product2.jpg" class="flex-container" title="toy house" alt="game house toy model"></span>
@@ -49,7 +56,8 @@
 					<span><img src="img/product11.jpg" class="flex-container" title="arcade" alt="aracde bowling"></span>
 					<span><img src="img/product12.jpg" class="flex-container" title="beer pong" alt="cups and beer"></span>  
 				</span>
-						
+				
+				<!--footer -->
 				<footer>
 					&copy;2018 - Mohaymen - Inholland 
 				</footer>
