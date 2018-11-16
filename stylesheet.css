@@ -28,8 +28,9 @@
 		align-items: center;
 		text-transform: uppercase;
 		font-size: 3em;
-		font-family: Cocogoose Pro;
-		text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		font-family: Arial;
+		font-family: Cocogoose Pro;		
+		text-shadow:-1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
 		
     }
 		 
@@ -40,7 +41,7 @@
 		margin:2px;
 		list-style:none;
 		overflow: hidden;
-		background-color: #757575;
+		background-color: #707070;
 		display:flex;
 		justify-content: center;
 	}
@@ -66,15 +67,21 @@
 		text-decoration:none; 
 		color:#FFFFFF;
 		text-transform: uppercase;
+		font-family:Times New Roman;
 		font-family:arial;
+		
+		
 	}
 		
 	.games 
 	{
-		font-size: 50px;
+		font-size: 3em;
+		font-family: Times New Roman;
+		font-family: Arial;
+		font-weight: 10;
 		color: #FFFFFF;
 		text-align: center;
-		background-color: #0099ff;
+		background-color: #2699FB;
 		margin:0;		
 		padding:10px 315px;
 		width: 30%;
@@ -118,7 +125,10 @@
 	h3
 	{
 		font-size:2em;
-		color:#898989;
+		font-family:Times New Roman;
+		font-family:Arial;
+		font-weight: 10;
+		color:#707070;
 		background-color:#F5F5F5;
 		height:40px;
 		margin:0;
@@ -137,9 +147,12 @@
 		border:none;	
 	}
 	
+	
+
+	
 	select
 	{
-		width: 50%;
+		width: 50%;		
 		margin: auto;
 		float: right;
 		position: relative;
@@ -157,8 +170,7 @@
 	}
 
 	.flex-container > span
-	{
-	  background-color: #f1f1f1;
+	{	  
 	  width: 280px;
 	  margin: 10px;	 
 	  max-height:195px;	  	 
@@ -192,30 +204,37 @@
 		text-align:left;
 		position:relative;
 		left:-213px;
-		font-family: Arial;
+		font-family: Times New Roman;
+		font-family: Arial;		
 		font-size:90%;
-		color:#6b6b6b;
+		color:#707070;
 		
 	}
 	
 	.fir
 	{		
 		padding:10px 222px;
-		border: 1px solid #7d7d7d;
+		border: 1px solid #707070;
 		position:relative;
 		left:-10px;
 		bottom:-7px;	
+		background-color:#FFFFFF;
+		font-family: Times New Roman;
+		font-family:Arial;
 	}
 	
-	.butt
+	#butt
 	{
-		position:relative;
-		right:-75px;
-		top:20px;
-		right:-100px;
-		background-color:#379cff;
-		width:520px;
-		margin:-80px;		
+		position:relative;		
+		top:-10px;
+		margin:10px;
+		right:-178px;
+		background-color:#2699FB;
+		width:523px;
+		color:#FFFFFF;
+		font-family:Times New Roman;
+		font-family:Arial;
+		
 	}
 	
 	#backvid
