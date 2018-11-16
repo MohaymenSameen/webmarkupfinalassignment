@@ -1,14 +1,8 @@
-	
-	/*Adding the background image*/
-	{
-		margin:0;
-		padding:0;
-		border:0;
-	}
+
 	
 	body 
 	{
-		background:url(img/background.jpeg);
+		background:url(img/background.jpeg);		
 		background-repeat: no-repeat;
 		max-width: 900px;
 		margin:auto;		
@@ -157,7 +151,7 @@
 	{
 	  display: flex;
 	  flex-wrap: wrap;
-	  
+	  background-color: #FFFFFF;
 	  
 			  
 	}
@@ -167,12 +161,8 @@
 	  background-color: #f1f1f1;
 	  width: 280px;
 	  margin: 10px;	 
-	  max-height:195px;	  
-	  
-	 
-	}
-	
-	
+	  max-height:195px;	  	 
+	}	
 	  
 	.flex-container img
 	{	
@@ -221,15 +211,22 @@
 	{
 		position:relative;
 		right:-75px;
-		top:-10px;
+		top:20px;
+		right:-100px;
 		background-color:#379cff;
 		width:520px;
-		margin:20px;
-		
+		margin:-80px;		
 	}
 	
-	
-	
+	#backvid
+	{
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		min-width: 100%; 
+		min-height: 100%;
+		z-index:-1;
+	}
 	
 	
 	
